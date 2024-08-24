@@ -1,0 +1,88 @@
+body {
+    background-color: #283d49;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    background-color: #b4bff0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(144, 179, 233, 0.1);
+    max-width: 300px;
+}
+
+/* screen container with input and clear button */
+.screen-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    max-width: 280px;
+}
+
+/* input field */
+.screen {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* clear button */
+.clear {
+    width: 85px;
+    height: 60px;
+    margin-right: 11px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* button rows */
+.button-row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/*buttons*/
+.button, .operator, .equal-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/*button colors*/
+.clear {
+    background-color: #f8d7da;
+}
+
+.operator {
+    background-color: #e2e3e5;
+}
+
+.equal-sign {
+    background-color: #d4edda;
+}
+
+/*button active satet*/
+.button:active, .clear:active, .operator:active, .equal-sign:active {
+    background-color: #b9b9b9;
+}
+
+
+
+
